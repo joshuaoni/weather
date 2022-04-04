@@ -50,11 +50,10 @@ const useCustom = () => {
         setError(false)
         
         const data = await getLocationId(location)
-        
         const weatherData = await getWeather(data)
-        if (!weatherData || weatherData.length === 0) return;
-        console.log(weatherData.data.consolidated_weather)
 
+        if (!weatherData || weatherData.length === 0) return;
+        
         getForecastInfo(weatherData.data)
     }
 
