@@ -49,7 +49,7 @@ const useCustom = () => {
         setIsPending(true)
         setError(false)
         
-        const data = await getLocationId(location)
+        const data = await getLocationId(location.trim())
         const weatherData = await getWeather(data)
 
         if (!weatherData || weatherData.length === 0) return;
