@@ -17,7 +17,7 @@ const Form = ({onSubmitPage}) => {
                 aria-label="location"
                 type="text"
                 className='input form-control'
-                placeholder="Enter a location, eg: Lagos"
+                placeholder="Enter a location, eg: London"
                 required
                 value={location}
                 onChange={(e)=>{
