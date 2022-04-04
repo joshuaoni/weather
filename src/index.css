@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --gradient: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
+    background: url(./components/CurrentDay/assets/b1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    --bg-color--card: #23334c;
+
+    --main-text-color: #ffffff;
+
+    --main-border-radius: 25px;
+    --secondary-border-radius: 15px;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Quicksand';
+    background-color: var(--bg-color);
+    color: var(--main-text-color);
+}
+
+.App {
+    padding-bottom: 2rem;
+}
+.top {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #272626;
+    padding: 0.5rem ;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+}
+
+.fa-2x {
+    font-size: 1.4em;
+}
+
+@media screen and (max-width: 45.5em) {
+    .footer {
+        font-size: 90%;
+    }
+    .fa-2x {
+        font-size: 1.2em;
+    }
+    .footer {
+        background-color: #272626;
+        padding: 0.5rem 0.5rem 0.2rem 0.5rem ;
+        text-align: center;
+    }
+}

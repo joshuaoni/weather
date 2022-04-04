@@ -1,0 +1,38 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: var(--main-border-radius);
+    -webkit-box-shadow: 0 0 24px 7px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 24px 7px rgba(0, 0, 0, 0.2);
+    background-color: var(--bg-color--card);
+    color: var(--main-text-color);
+    width: 85%;
+    max-width: 675px;
+    min-height: 300px;
+    position: relative;
+}
+
+.cl-btn {
+    border-width: 0px;
+    padding: 0.3rem 1.5rem;
+    border-radius: 4rem;
+    text-align: center;
+    font-size: 140%;
+    background: rgb(180, 227, 242);
+    color: black;
+    box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.cl-btn:hover {
+    color: white;
+    background: #23334c;
+}
+
+@media screen and (max-width: 45.5em) {
+    .cl-btn {
+        font-size: 120%;
+    }
+}
