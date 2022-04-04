@@ -16,8 +16,8 @@ const currentDayForecast = data => [
     },
     {
         name: 'wind direction',
-        value: data.wind_direction_compass,
-        unit: '',
+        value: Math.round(data.wind_direction),
+        unit: '°',
     },
     {
         name: 'humidity',
