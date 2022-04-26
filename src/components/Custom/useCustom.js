@@ -5,7 +5,7 @@ import getCurrentDayForecast from '../../helpers/getCurrentDayForecast';
 import getUpcomingDaysForecast from '../../helpers/getUpcomingDaysForecast';
 
 const API = 'https://www.metaweather.com/api/location'; 
-const CORS = 'https://the-ultimate-api-challenge-v2.herokuapp.com';
+const CORS = 'https://the-ultimate-api-challenge.herokuapp.com';
 const URL = `${CORS}/${API}`;
 
 const useCustom = () => {
